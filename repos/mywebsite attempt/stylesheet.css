@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content:;
+    justify-content: space-between;
 }
 
 .header {
@@ -43,11 +43,44 @@ ul {
 
 .section-one {
     display: flex;
-    background-image: url(/images/inarimongates.jpg);
+    background-image: url(images/inarimongates.jpg);
     justify-content: space-around;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: lightblue;
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
+.section-two {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex: 1 1 auto;
+}
+
+.photo {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.food {
+    width: 300px;
+    height: 300px;
+}
+
+.text {
+    text-align: center;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
 }
