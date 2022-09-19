@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:;
 }
 
 .header {
@@ -23,12 +23,31 @@ ul {
     text-decoration: none;
 }
 
+.ramen {
+    max-width: 300px;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
 .titlesection {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button {
+    max-width: 100px;
+    max-height: 60px;
 }
 
 .section-one {
     display: flex;
-    background-image: url(/images/streetviewbg.jpg);
+    background-image: url(/images/inarimongates.jpg);
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightblue;
+    
+
 }
