@@ -2,3 +2,33 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    font-family: serif;
+}
+
+.logo {
+    font-size: 36px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.titlesection {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    display: flex;
+    background-image: url(/images/streetviewbg.jpg);
+}
